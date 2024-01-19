@@ -21,4 +21,4 @@
 
 
 ------------------------------------------------
-[javascriptmastery](https://www.youtube.com/watch?v=tS7upsfuxmo)
+Course from [Javascript Mastery](https://www.youtube.com/watch?v=tS7upsfuxmo)
