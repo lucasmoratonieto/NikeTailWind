@@ -7,16 +7,15 @@ import {
   SpecialOfers,
   Subscribe,
   SuperQuality,
-  
 } from "./sections";
 
-import Nav from './components/Nav'
+import Nav from "./components/Nav";
 
 const App = () => (
   <main className="relative">
-    <Nav/>
-    <section className=" xl:paddin-1 wide:padding-r padding-b">
-      <Hero/>
+    <Nav />
+    <section className=" xl:paddin-l wide:padding-r padding-b">
+      <Hero />
     </section>
     <section className=" padding ">
       <PopularProducts />
