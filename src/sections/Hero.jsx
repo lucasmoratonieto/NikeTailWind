@@ -1,10 +1,8 @@
 import React from "react";
 import { arrowRight } from "../assets/icons";
-import Button from "../components/ButtonShopMe";
+import ButtonShopMe from "../components/ButtonShopMe";
 import { shoes, statistics } from "../constants";
 import { bigShoe1 } from "../assets/images";
-import { bigShoe2 } from "../assets/images";
-import { bigShoe3 } from "../assets/images";
 import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
 
@@ -16,7 +14,7 @@ const Hero = () => {
       id="home"
       className=" w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container "
     >
-      <div className=" relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28 ">
+      <div className=" relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-20 ">
         <p className=" text-xl font-montserrat text-coral-red ">
           Our summer collections
         </p>
@@ -31,7 +29,7 @@ const Hero = () => {
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
-        <Button label="Shop now" iconURL={arrowRight} />
+        <ButtonShopMe label="Shop now" iconURL={arrowRight} />
 
         <div className="flex justify-starts items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((item) => (
