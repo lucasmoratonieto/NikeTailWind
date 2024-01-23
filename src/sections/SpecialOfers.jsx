@@ -1,5 +1,7 @@
 import {offer} from "../assets/images";
-
+import { arrowRight } from "../assets/icons";
+import ButtonShopMe from "../components/ButtonShopMe";
+import ButtonViewDetails from "../components/ButtonViewDetails";
 
 function SpecialOfers() {
   return ( 
@@ -13,6 +15,10 @@ function SpecialOfers() {
           <div className=" text-xl font-palanquin text-slate-gray info-text">
             <p className=" my-5">Embark on a shopping journey that redefines your experience with unbeatable deals. From premier selections to incredible savings, we offer unparalleled value that sets us apart.</p>
             <p>Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.</p>
+          </div>
+          <div className=" mt-5 flex gap-5">
+            <ButtonShopMe label="Shop now" iconURL={arrowRight} />            
+            <ButtonViewDetails label="View Detals" />
           </div>
         </div>
     </section>
