@@ -41,7 +41,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="flex-1 min-w-[400px] rounded-[20px] shadow-3xl px-10 py-16 hover:shadow-orange-200">
+      <div className="flex-1 min-w-[400px] rounded-[20px] shadow-3xl px-10 py-16 hover:shadow-orange-200 ">
         <div className=" w-11 h-11 flex justify-center items-center bg-coral-red rounded-full ">
           <img
             src={support}

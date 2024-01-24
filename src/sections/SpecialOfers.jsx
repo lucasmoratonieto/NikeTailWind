@@ -9,17 +9,17 @@ function SpecialOfers() {
       id="SpecialOffer"
       className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container"
     >
-      <div className=" flex-1">
+      <div className=" flex-1 sm:mt-28">
         <img
           src={offer}
           alt="ImageOffer"
           width={773}
           height={687}
-          className=" md:max-w-[700px]"
+          className=" md:max-w-[610px]"
         />
       </div>
 
-      <div className=" flex-1 align-middle justify-center p-5 max-md:max-w-lg mt-24">
+      <div className=" flex-1 align-top justify-center p-5 max-md:max-w-lg mt-24">
         <h1 className=" text-4xl font-palanquin font-bold">
           <span className="text-coral-red">Special</span> Offer
         </h1>
