@@ -5,6 +5,7 @@ import {
   support,
   truckFast,
   twitter,
+  discord,
 } from "../assets/icons";
 import {
   bigShoe1,
@@ -145,7 +146,24 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  {
+    src: facebook,
+    alt: "facebook logo",
+    href: "https://github.com/lucasmoratonieto",
+  },
+  {
+    src: twitter,
+    alt: "twitter logo",
+    href: "https://github.com/lucasmoratonieto",
+  },
+  {
+    src: instagram,
+    alt: "instagram logo",
+    href: "https://github.com/lucasmoratonieto",
+  },
+  {
+    src: discord,
+    alt: "discord logo",
+    href: "https://github.com/lucasmoratonieto",
+  },
 ];

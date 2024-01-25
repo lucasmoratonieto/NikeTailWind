@@ -2,7 +2,6 @@ import { offer } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 import ButtonShopMe from "../components/ButtonShopMe";
 import ButtonViewDetails from "../components/ButtonViewDetails";
-
 function SpecialOfers() {
   return (
     <section
@@ -18,9 +17,8 @@ function SpecialOfers() {
           className=" md:max-w-[610px]"
         />
       </div>
-
-      <div className=" flex-1 align-top justify-center p-5 max-md:max-w-lg mt-24">
-        <h1 className=" text-4xl font-palanquin font-bold">
+      <div className=" flex-1 align-top justify-center p-5 max-md:max-w-lg mt-24 ">
+        <h1 className=" text-4xl font-palanquin font-bold ">
           <span className="text-coral-red">Special</span> Offer
         </h1>
         <div className=" text-xl font-palanquin text-slate-gray info-text">
@@ -43,5 +41,4 @@ function SpecialOfers() {
     </section>
   );
 }
-
 export default SpecialOfers;

@@ -55,4 +55,8 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+
+  .footer-text {
+    @apply font-montserrat text-white text-lg leading-7;
+  }
 }
