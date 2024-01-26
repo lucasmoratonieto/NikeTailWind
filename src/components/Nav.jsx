@@ -8,7 +8,7 @@ const Nav = () => {
     setMenuVisible(!menuVisible);
   };
   return (
-    <header className="padding-x py-8 z-20 w-full sticky top-0 bg-white">
+    <header className="padding-x py-5 z-20 w-full sticky top-0 bg-white align-middle">
       <nav className=" flex justify-between max-container">
         <a href="/">
           <img
@@ -36,34 +36,27 @@ const Nav = () => {
         <div
           className={`${
             menuVisible
-              ? "shadow-2xl shadow-orange-200 drop-shadow-sm ring-1 ring-slate-900/5 p-5 rounded-lg z-20 bg-white absolute ml-[75%] hidden max-lg:block top-3 right-11"
-              : ""
+              ? "shadow-2xl shadow-orange-200 drop-shadow-sm ring-1 ring-slate-900/5 p-5 rounded-lg z-20 bg-white absolute ml-[75%]  max-lg:block top-3 right-11 flex "
+              : "flex justify-end  align-middle my-auto"
           }`}
         >
-          <div className=" justify-end mb-6 z-20 align-middle ">
-            <button
-              onClick={toggleMenu}
-              className="group w-10 h-12 transform-origin-left transition-transform duration-500"
-            >
-              {/* <img
-src={hamburger}
-alt="Hamburger"
-width={25}
-height={25}
-className=" hidden max-lg:block "
-/> */}
-              <div className="hidden max-lg:block w-6 h-[2px] bg-black m-1 group-hover:rotate-45 transition-transform duration-500"></div>
-              <div className="hidden max-lg:block w-6 h-[2px] bg-black m-1 group-hover:opacity-0 transition-transform duration-500"></div>
-              <div className="hidden max-lg:block w-6 h-[2px] bg-black m-1 group-hover:-rotate-45 transition-transform duration-500"></div>
+          <div className="flex justify-end ">
+            <button onClick={toggleMenu} className=" ">
+              <img
+                src={hamburger}
+                alt="Hamburger"
+                width={25}
+                height={25}
+                className=" max-lg:block "
+              />
             </button>
           </div>
           {/* Este es el Nav Bar escondido que aparece cuando clickas hamburguesa */}
           <ul
-            className={`flex flex-col justify-end gap-5 min-w-[5.45rem]
-${menuVisible ? "" : "hidden"}`}
+            className={`flex flex-col justify-end min-w-[5.45rem] ${menuVisible ? "" : "hidden"}`}
           >
             {navLinks.map((item) => (
-              <li key={item.label} className="text-right">
+              <li key={item.label} className="text-right mt-3">
                 <a
                   href={item.href}
                   className=" fonrt-montserrat leading-normal text-lg text-slate-gray"
