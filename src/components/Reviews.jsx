@@ -2,7 +2,7 @@ import React from "react";
 
 const Reviews = ({ imgURL, customerName, rating, feedback }) => {
   return (
-    <div className=" items-center justify-center align-middle rounded-3xl p-5 border-8 transition-all shadow-3xl max-w-lg shadow-slate-200 xl:hover:shadow-slate-300 xl:hover:-translate-y-2 xl:hover:-translate-x-2">
+    <div className=" items-center justify-center align-middle rounded-3xl p-5 border-4 transition-all shadow-3xl max-w-lg shadow-slate-200 lg:hover:shadow-slate-300 lg:hover:-translate-y-2 lg:hover:-translate-x-2">
       <img
         src={imgURL}
         alt={customerName}

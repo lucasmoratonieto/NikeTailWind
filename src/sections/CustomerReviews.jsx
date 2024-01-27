@@ -12,7 +12,7 @@ const CustomerReviews = () => {
         exceptional experiences with us.
       </div>
 
-      <div className="mt-24 flex flex-1 justify-evenly items-center max-lg:flex-col ">
+      <div className="mt-16 flex flex-1 justify-evenly items-center max-lg:flex-col gap-10">
         {reviews.map((review) => (
           <Reviews key={review.label} {...review} />
         ))}

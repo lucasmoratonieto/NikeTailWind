@@ -5,7 +5,7 @@ import { support } from "../assets/icons";
 const Services = () => {
   return (
     <section className="flex flex-wrap gap-9 justify-center max-container">
-      <div className="flex-1 min-w-[400px] rounded-[20px] shadow-3xl px-10 py-16 hover:shadow-orange-200 ">
+      <div className="flex-1 min-w-[400px] rounded-[20px] shadow-3xl px-10 py-16 lg:hover:shadow-orange-200 ">
         <div className=" w-11 h-11 flex justify-center items-center bg-coral-red rounded-full">
           <img
             src={truckFast}
@@ -23,7 +23,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="flex-1 min-w-[400px] rounded-[20px] shadow-3xl px-10 py-16 hover:shadow-orange-200">
+      <div className="flex-1 min-w-[400px] rounded-[20px] shadow-3xl px-10 py-16 lg:hover:shadow-orange-200">
         <div className=" w-11 h-11 flex justify-center items-center bg-coral-red rounded-full">
           <img
             src={shieldTick}
@@ -41,7 +41,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="flex-1 min-w-[400px] rounded-[20px] shadow-3xl px-10 py-16 hover:shadow-orange-200 ">
+      <div className="flex-1 min-w-[400px] rounded-[20px] shadow-3xl px-10 py-16 lg:hover:shadow-orange-200 ">
         <div className=" w-11 h-11 flex justify-center items-center bg-coral-red rounded-full ">
           <img
             src={support}
