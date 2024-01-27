@@ -37,7 +37,7 @@ const Nav = () => {
           className={`${
             menuVisible
               ? "shadow-2xl shadow-orange-200 drop-shadow-sm ring-1 ring-slate-900/5 p-5 rounded-lg z-20 bg-white absolute ml-[75%]  max-lg:block top-3 right-11 flex "
-              : "flex justify-end  align-middle my-auto"
+              : "flex justify-end  align-middle my-auto lg:hidden"
           }`}
         >
           <div className="flex justify-end ">
